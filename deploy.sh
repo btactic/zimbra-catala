@@ -1,6 +1,6 @@
 #!/bin/sh
 
-NATIVE2ASCII="/opt/zimbra/jdk1.5.0_19/bin/native2ascii"
+NATIVE2ASCII="/opt/zimbra/java/bin/native2ascii"
 DESTDIR="/opt/zimbra/jetty/webapps/zimbra/WEB-INF/classes/messages"
 
 $NATIVE2ASCII -encoding UTF-8 AjxMsg.properties AjxMsg_ca.properties
