@@ -1,3 +1,40 @@
+README
+======
+
+- How to download this language package?
++ You can download it in two ways:
+	1. Direct download. Using this URL ( https://github.com/btactic/zimbra-catala/zipball/master )  and extracting it into an empty folder.
+	2. Using GIT. To clone this repository use:
+
+		git clone https://github.com/btactic/zimbra-catala.git zimbra-catala
+		
+- How to deploy the translation package ?
++ On a new terminal type "sudo ./deploy.sh"
+		
+When you execute deploy.sh it makes a new directory called backup, where it backups the old Catalan translations.
+
+
+This Catalan language pack contains:
+
+AjxKeys.properties
+AjxMsg.properties
+CHANGELOG
+deploy.sh
+README
+ZaMsg.properties
+ZhMsg.properties
+ZmKeys.properties
+ZmMsg.properties
+ZMsg.properties
+ZsMsg.properties
+
+
+Both administration and user pages are translated.
+
+-----------------------------------------------------------------------------
+
+OLD README
+==========
 - In order to deploy this translation, you first need to convert it from UTF-8 to ASCII, which is the encoding zimbra uses. You may do it with the following command (change according to new versions of the jdk)
 /opt/zimbra/java/bin/native2ascii -encoding UTF-8 ZmMsg.properties ZmMsg_ca.properties
 - Note that if you want to use an ISO-8859-1 encoded file, you have to change the command accordingly
@@ -13,4 +50,4 @@ cp ZmMsg_ca.properties /opt/zimbra/jetty/webapps/zimbra/WEB-INF/classes/messages
 	- Clean your browser's cache
 
 Good luck!
-If you have any questions or corrections (there are sure a lot of errors to be corrected, I'm afraid) about this translation, you may contact me at: jordiac-at-crupc.upc.edu
+
