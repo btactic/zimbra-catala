@@ -1,6 +1,8 @@
 README
 ======
 
+
+
 - How to download this language package?
 + You can download it in two ways:
 	1. Direct download. Using this URL ( https://github.com/btactic/zimbra-catala/zipball/master )  and extracting it into an empty folder.
@@ -16,17 +18,19 @@ When you execute deploy.sh it makes a new directory called backup, where it back
 
 This Catalan language pack contains:
 
-AjxKeys.properties
 AjxMsg.properties
 CHANGELOG
 deploy.sh
+l18nMsg.properties
 README
+ZabMsg.properties
 ZaMsg.properties
+ZbMsg.properties
 ZhMsg.properties
-ZmKeys.properties
 ZmMsg.properties
 ZMsg.properties
-ZsMsg.properties
+ZmSMS.properties
+
 
 
 Both administration and user pages are translated.
