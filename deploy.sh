@@ -1,6 +1,6 @@
 #!/bin/bash
 if [ $(whoami) = "root" ]; then
-	echo -e -n "\n \n \n EXECUTING SCRIPT \n \n"	
+	echo -e -n "\n \n \n EXECUTING SCRIPT \n \n \n"	
 
 	NATIVE2ASCII="/opt/zimbra/java/bin/native2ascii"
 	DESTDIR="/opt/zimbra/jetty/webapps/zimbra/WEB-INF/classes/messages"
