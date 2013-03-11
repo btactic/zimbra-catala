@@ -34,8 +34,9 @@ if [ $(whoami) = "root" ]; then
 		echo -e -n "\t Copying new files \n"
 			cp -a *_ca.properties ${DESTDIR}/
 			cp -a *_ca.properties ${DESTDIRADMIN}/
+			chown zimbra:zimbra ${DESTDIR}/*_ca.properties
+			chown zimbra:zimbra ${DESTDIRADMIN}/*_ca.properties
 		echo -e -n "\t Copy done \n"
-		
 		else 
 			echo -e -n " \n Directory  ${DESTDIR} \n  OR  \n  ${DESTDIRADMIN}  \n Do not exists \n"
 	fi
