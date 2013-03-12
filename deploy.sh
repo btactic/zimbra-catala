@@ -12,3 +12,5 @@ mkdir backups
 cp $DESTDIR/*_ca.properties backups/
 
 mv *_ca.properties $DESTDIR/
+
+chown zimbra:zimbra ${DESTDIR}/*_ca.properties
