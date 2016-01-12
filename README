@@ -9,16 +9,18 @@ README
 	2. Using GIT. To clone this repository use:
 
 		git clone https://github.com/btactic/zimbra-catala.git zimbra-catala
-		
+
 - How to deploy the translation package ?
 + On a new terminal type "sudo ./deploy.sh"
-		
+
 When you execute deploy.sh it makes a new directory called backup, where it backups the old Catalan translations.
 
 
 This Catalan language pack contains:
 
+AjxKeys.properties
 AjxMsg.properties
+I18nMsg.properties
 CHANGELOG
 deploy.sh
 l18nMsg.properties
@@ -27,6 +29,7 @@ ZabMsg.properties
 ZaMsg.properties
 ZbMsg.properties
 ZhMsg.properties
+ZmKeys.properties
 ZmMsg.properties
 ZMsg.properties
 ZmSMS.properties
@@ -35,6 +38,11 @@ ZmSMS.properties
 
 Both administration and user pages are translated.
 
+This translation has been possible thanks to the support of the Department of Culture of the Generalitat of Catalonia.
+
+Aquesta traducció ha sigut possible gràcies al suport del Departament de Cultura de la Generalitat de Catalunya.
+
+![alt text](https://github.com/btactic/zimbra-catala/images/Generalitat_de_Catalunya.jpg)
 -----------------------------------------------------------------------------
 
 OLD README
@@ -54,4 +62,3 @@ cp ZmMsg_ca.properties /opt/zimbra/jetty/webapps/zimbra/WEB-INF/classes/messages
 	- Clean your browser's cache
 
 Good luck!
-
