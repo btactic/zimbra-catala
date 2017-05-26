@@ -2,11 +2,11 @@
 if [ $(whoami) = "root" ]; then
 	echo -e -n "\n \n \n EXECUTING SCRIPT \n \n \n"
 
-	NATIVE2ASCII="/opt/zimbra/java/bin/native2ascii"
-	DESTDIR="/opt/zimbra/jetty-distribution-*/webapps/zimbra/WEB-INF/classes/messages"
-	DESTDIRADMIN="/opt/zimbra/jetty-distribution-*/webapps/zimbraAdmin/WEB-INF/classes/messages"
-	DESTDIRKEYS="/opt/zimbra/jetty-distribution-*/webapps/zimbra/WEB-INF/classes/keys"
-	DESTDIRADMINKEYS="/opt/zimbra/jetty-distribution-*/webapps/zimbraAdmin/WEB-INF/classes/keys"
+	NATIVE2ASCII="/opt/zimbra/common/lib/jvm/java/bin/native2ascii"
+	DESTDIR="/opt/zimbra/jetty/webapps/zimbra/WEB-INF/classes/messages"
+	DESTDIRADMIN="/opt/zimbra/jetty/webapps/zimbraAdmin/WEB-INF/classes/messages"
+	DESTDIRKEYS="/opt/zimbra/jetty/webapps/zimbra/WEB-INF/classes/keys"
+	DESTDIRADMINKEYS="/opt/zimbra/jetty/webapps/zimbraAdmin/WEB-INF/classes/keys"
 	MSGSDIR="/opt/zimbra/conf/msgs/"
 	if [ -d $DESTDIR ] && [ -d $DESTDIRADMIN ] && [ -d $DESTDIRADMINKEYS ] && [ -d $DESTDIRKEYS ] && [ -d $MSGSDIR ]; then
 		echo -e -n "\t Checking directories  \n \t \t ${DESTDIR} \n \t \t ${DESTDIRADMIN} \n \t [OK!] \n"
